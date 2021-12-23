@@ -1,0 +1,15 @@
+If you want to get a copy of an existing Git repository the command you need is git clone. Every version of every file for the history of the project is pulled down by default when you run git clone. In fact, if your server disk gets corrupted, you can often use nearly any of the clones on any client to set the server back to the state it was in when it was cloned. You clone this repository git clone <https://github.com/Calugar850/WinterInternship2022-Backend-main>.
+Git has a number of different transfer protocols you can use. The previous example uses the https:// protocol, but you may also see git:// or user@server:path/to/repo.git, which uses the SSH transfer protocol. Getting Git on a Server will introduce all of the available options the server can set up to access your Git repository and the pros and cons of each.
+
+Open a project from a GitHub repo
+
+1.Open Visual Studio.
+2.On the start window, select Clone a repository.
+3.Enter or type the repository location, and then select the Clone button.
+You might be asked for your user sign-in information in the Git User Information dialog box. You can either add your information or edit the default information it provides.
+
+View files in Solution Explorer
+
+Next, Visual Studio loads the solution(s) from the repository by using the Folder View in Solution Explorer.
+You can view a solution in Solution View by double-clicking its .sln file.
+Or, you can select the Switch Views button, and then select Program.cs to view a solution's code.
